@@ -1,21 +1,14 @@
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { AngularFireAuth } from 'angularfire2/auth';
+import {Injectable} from '@angular/core';
+import {Observable} from 'rxjs/Observable';
+import {AngularFireAuth} from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class AuthService {
-  private _user: Observable<firebase.User>;
-  private _authState;
 
-  constructor(private afAuth: AngularFireAuth) {
-    afAuth.authState.subscribe(user => {
-      this._authState = Observable.of(!!this._user);
-    });
-
-}
+  constructor(private afAuth: AngularFireAuth) {}
 
   loginWithGoogle() {
     const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
@@ -26,11 +19,11 @@ export class AuthService {
   }
 
   displayName(): Observable<string> {
-    return this.afAuth.authState.map(user => user ? user.displayName : '');
+    return this.afAuth.authState.map(user => user.displayName ? user.displayName : '');
   }
 
   authenticated(): Observable<boolean> {
-    return this.afAuth.authState.map(user => !!user);
+    return this.afAuth.authState.map(user =>  !!user);
   }
 
   logOut(): void {
