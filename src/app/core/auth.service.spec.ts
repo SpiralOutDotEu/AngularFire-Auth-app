@@ -5,11 +5,10 @@ import {Observable} from 'rxjs/Observable';
 import * as firebase from 'firebase/app';
 import AuthProvider = firebase.auth.AuthProvider;
 
-
-let authService: AuthService;
-let afAuth: AngularFireAuth;
-
 describe('AuthService', () => {
+
+  let authService: AuthService;
+  let afAuth: any;
 
   const mockUser = {
     displayName: 'displayName',
