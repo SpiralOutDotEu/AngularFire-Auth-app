@@ -44,7 +44,7 @@ describe('AuthGuard', () => {
 
     it(' returns true ', () => {
       authGuard.canActivate(new ActivatedRouteSnapshot(), mockRouterStateSnapshot)
-        .map(result => expect(result).toEqual(true));
+        .subscribe(result => expect(result).toEqual(true));
     });
 
   });
