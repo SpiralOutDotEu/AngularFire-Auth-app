@@ -29,12 +29,12 @@ describe('GuestNavComponent', () => {
   it('provides a link to Home \'\/\'', () => {
     this.homeLink = fixture.debugElement.query(By.css('#homeLink')).nativeElement;
     expect(this.homeLink.getAttribute('href')).toEqual('/');
-    expect(component).toBeTruthy();
+    expect(this.homeLink.innerHTML).toEqual('Home');
   });
 
   it('provides a link to login \'/\login\'', () => {
     this.homeLink = fixture.debugElement.query(By.css('#loginLink')).nativeElement;
     expect(this.homeLink.getAttribute('href')).toEqual('/login');
-    expect(component).toBeTruthy();
+    expect(this.homeLink.innerHTML).toEqual('Login');
   });
 });
