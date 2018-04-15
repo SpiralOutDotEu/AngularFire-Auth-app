@@ -1,6 +1,5 @@
 #  AngularFire-Auth-app
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/SpiralOutDotEu/AngularFire-Auth-app.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app.svg?branch=master)](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4e2c5a1f4df748b2917a1d901bcc9000)](https://www.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiralOutDotEu/AngularFire-Auth-app&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4e2c5a1f4df748b2917a1d901bcc9000)](https://www.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&utm_medium=referral&utm_content=SpiralOutDotEu/AngularFire-Auth-app&utm_campaign=Badge_Coverage)
