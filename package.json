@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "codacy": "cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage -p ."
   },
   "private": true,
   "dependencies": {
