@@ -27,3 +27,10 @@ Testable Angular Firebase Authentication Boilerplate
    * Enable `Google` sign-in providers.
 * Replace Firebase config, with your own project's config, in [environment.ts](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/environments/environment.ts)
 
+### TravisCI - Codacy
+
+* Enable your project to [integrate with TravisCI](https://github.com/marketplace/travis-ci)
+* Enable your project with [Codacy](https://app.codacy.com/projects)
+* Press on `setup coverage` in your project in Codacy and copy `project token`
+* Go back to your TravisCI project and add the environment variable:
+   * `CODACY_PROJECT_TOKEN` = `%Project_Token%` *(replacing %Project_Token% with your token from Codacy)*
