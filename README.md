@@ -12,6 +12,8 @@
 
 Testable Angular Firebase Authentication Boilerplate 
 
+Demo: https://angularfire-auth-app.firebaseapp.com
+
 ## Features
 
 * Angular CLI Project.
@@ -24,6 +26,10 @@ Testable Angular Firebase Authentication Boilerplate
 * AuthService provided as [singleton](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/app.module.ts) from separate [core module](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/core.module.ts).
 * [Different nav bar](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/app.component.html) for Guest and Users.
 * [TravisCI integration](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/.travis.yml) to run the karma tests.
+* [TravisCI](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/.travis.yml) sending test coverage report to [Codacy](https://www.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&utm_medium=referral&utm_content=SpiralOutDotEu/AngularFire-Auth-app&utm_campaign=Badge_Coverage)
+* [TravisCI](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/.travis.yml) deploy to Firebase only for Master branch.
+* [Snyk](https://snyk.io/test/github/SpiralOutDotEu/AngularFire-Auth-app) protection against vulnerable dependencies.
+
 
 ## Usage
 
