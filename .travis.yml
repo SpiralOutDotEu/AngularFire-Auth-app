@@ -38,4 +38,3 @@ deploy:
   token: $FIREBASE_TOKEN
   on:
     branch: master
-    condition: $MY_ENV = super_awesome
