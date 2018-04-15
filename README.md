@@ -1,27 +1,28 @@
-# AuthApp
+#  AngularFire-Auth-app
+[![Build Status](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app.svg?branch=master)](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Testable Angular Firebase Authentication Boilerplate 
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Angular CLI Project.
+* Utilizing Firebase Authentication.
+* Full Unit Tests.
+* Simple plain HTML, without decoration, so that you can easily extend it. 
+* Firebase Authentication provided from [AuthService](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/auth.service.ts).
+* [AuthService tests](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/auth.service.spec.ts) using Mock for AngularFireAuth.
+* [AuthGuard](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/auth.guard.ts) for [protecting routes](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/core-routing.module.ts).
+* AuthService provided as [singleton](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/app.module.ts) from separate [core module](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/core/core.module.ts).
+* [Different nav bar](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/app/app.component.html) for Guest and Users.
+* [TravisCI integration](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/.travis.yml) to run the karma tests.
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Clone, download or fork this project.
+* Create a [Firebase](https://console.firebase.google.com) project.
+* Enable Google Authentication for your [Firebase](https://console.firebase.google.com) project:
+   * Select the `Auth` tab.
+   * Select the `Sign-In Method` tab.
+   * Enable `Google` sign-in providers.
+* Replace Firebase config, with your own project's config, in [environment.ts](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/src/environments/environment.ts)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
