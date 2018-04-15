@@ -5,6 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4e2c5a1f4df748b2917a1d901bcc9000)](https://www.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiralOutDotEu/AngularFire-Auth-app&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/4e2c5a1f4df748b2917a1d901bcc9000)](https://www.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&utm_medium=referral&utm_content=SpiralOutDotEu/AngularFire-Auth-app&utm_campaign=Badge_Coverage)
 [![BCH compliance](https://bettercodehub.com/edge/badge/SpiralOutDotEu/AngularFire-Auth-app?branch=master)](https://bettercodehub.com/)
+[![codebeat badge](https://codebeat.co/badges/724baf9f-874a-467b-bf84-e75236ed9068)](https://codebeat.co/projects/github-com-spiraloutdoteu-angularfire-auth-app-master)
 
 Testable Angular Firebase Authentication Boilerplate 
 
