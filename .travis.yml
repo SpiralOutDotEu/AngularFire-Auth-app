@@ -33,7 +33,9 @@ after_success:
 
 before_deploy:
    - ng build --prod
+
 deploy:
+  skip_cleanup: true
   provider: firebase
   token: $FIREBASE_TOKEN
   on:
