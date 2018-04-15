@@ -27,7 +27,7 @@
     "core-js": "^2.4.1",
     "firebase": "^4.12.0",
     "rxjs": "^5.5.6",
-    "zone.js": "^0.8.19"
+    "zone.js": "git://github.com/JiaLiPassion/zone.js#jasmine-dist"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.3",
