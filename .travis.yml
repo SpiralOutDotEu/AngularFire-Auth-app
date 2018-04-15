@@ -24,4 +24,4 @@ script:
    - ng test --single-run
 
 after_success:
-   - npm run coveralls
+   - npm run codacy
