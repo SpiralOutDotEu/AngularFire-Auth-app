@@ -8,6 +8,8 @@
 [![codebeat badge](https://codebeat.co/badges/724baf9f-874a-467b-bf84-e75236ed9068)](https://codebeat.co/projects/github-com-spiraloutdoteu-angularfire-auth-app-master)
 [![Known Vulnerabilities](https://snyk.io/test/github/SpiralOutDotEu/AngularFire-Auth-app/badge.svg)](https://snyk.io/test/github/SpiralOutDotEu/AngularFire-Auth-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AngularFire-Auth-app/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/SpiralOutDotEu/AngularFire-Auth-app/blob/master/CODE_OF_CONDUCT.md)
 
 Testable Angular Firebase Authentication Boilerplate 
 
