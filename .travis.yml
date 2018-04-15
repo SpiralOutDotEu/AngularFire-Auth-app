@@ -30,3 +30,12 @@ after_script:
 
 after_success:
    - npm run codacy
+
+before_deploy:
+   - ng build --prod
+deploy:
+  provider: firebase
+  token: $FIREBASE_TOKEN
+  on:
+    branch: master
+    condition: $MY_ENV = super_awesome
