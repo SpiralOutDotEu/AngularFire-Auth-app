@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "codacy": "cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage -p ."
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "angularfire2": "^5.0.0-rc.6",
+    "codacy-coverage": "^2.1.1",
     "core-js": "^2.4.1",
     "firebase": "^4.12.0",
     "rxjs": "^5.5.6",
