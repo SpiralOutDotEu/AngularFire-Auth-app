@@ -1,4 +1,5 @@
 #  AngularFire-Auth-app
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/586cc82c9df34f44926e35d12d110aea)](https://app.codacy.com/app/SpiralOutDotEu/AngularFire-Auth-app?utm_source=github.com&utm_medium=referral&utm_content=SpiralOutDotEu/AngularFire-Auth-app&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app.svg?branch=master)](https://travis-ci.org/SpiralOutDotEu/AngularFire-Auth-app)
 
 Testable Angular Firebase Authentication Boilerplate 
