@@ -43,3 +43,24 @@ Testable Angular Firebase Authentication Boilerplate
 * Press on `setup coverage` in your project in Codacy and copy `project token`
 * Go back to your TravisCI project and add the environment variable:
    * `CODACY_PROJECT_TOKEN` = `%Project_Token%` *(replacing %Project_Token% with your token from Codacy)*
+
+## Firebase setup
+
+The project is using two separate firebase projects. One for testing and one for production.
+
+Settings for Firebase projects are identical with the difference that in production instance the `localhost` domain in authentication is removed. This strategy gives an extra protection against mistakes in development and intruders.
+ 
+### Firebase Authentication settings
+* Enable Google Sign-in provider. 
+* Change `Public-facing name` from `general settings` into something meaningful.
+
+### Firebase deploy
+* Into `.firebaserc` replace the project name with your project.
+* `npm i -g firebase-tools`
+* cd into the root of your project and type `firebase login:ci`
+* follow the link provided to sign-in with your Google account.
+* return to the terminal and copy the token provided.
+* go to your TravisCI project -> settings and add to environment variables `FIREBASE_TOKEN` = `%token%` *(replacing %token% with the one that you copied before)*
+
+
+
