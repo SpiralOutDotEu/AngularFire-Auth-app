@@ -9,7 +9,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "codacy": "cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage -p ."
+    "codacy": "cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage -p .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +29,8 @@
     "core-js": "^2.5.5",
     "firebase": "^4.12.1",
     "rxjs": "^5.5.10",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular/cli": "^1.7.4",
@@ -48,5 +51,6 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "snyk": true
 }
