@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "angularfire2": "^5.0.0-rc.5-next",
-    "codacy-coverage": "^2.1.1",
+    "codacy-coverage": "^3.4.0",
     "core-js": "^2.5.5",
     "firebase": "^4.12.1",
     "rxjs": "^5.5.10",
